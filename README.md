@@ -7,6 +7,14 @@ project state from one AI coding IDE and imports it into another. Switch between
 Cursor, Antigravity, and Claude Code without losing your conversation history, file context,
 or project understanding.
 
+## Previews
+
+<div align="center">
+  <img src="tool-ss/cli.png" alt="Context Bridge CLI Output" width="45%">
+  &nbsp;
+  <img src="tool-ss/tui.png" alt="Context Bridge TUI Interface" width="45%">
+</div>
+
 ## Features
 
 - **🔍 Auto-Detection** — Scans your machine for installed AI coding IDEs
