@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Project
+.vscode/
+.idea/
+
+# Context Bridge Artifacts
+test-exports/
+test-imports/
+context-bridge-exports/
+
+# Debug and temp scripts
+pb_debug.json
+pb_extractor.py
+debug_codex.py
+
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
