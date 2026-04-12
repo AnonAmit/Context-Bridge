@@ -1,0 +1,2312 @@
+{
+  "ide": "cursor",
+  "timestamp": "2026-04-12T20:01:22.499983",
+  "tool_version": "1.0.0",
+  "results": [
+    {
+      "key": "[TABLE] ItemTable",
+      "classification": "UNKNOWN",
+      "value_preview": "124 rows, 2 columns",
+      "table": "ItemTable",
+      "schema": [
+        {
+          "name": "key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "value",
+          "type": "BLOB",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    {
+      "key": "[TABLE] cursorDiskKV",
+      "classification": "UNKNOWN",
+      "value_preview": "1129 rows, 2 columns",
+      "table": "cursorDiskKV",
+      "schema": [
+        {
+          "name": "key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "value",
+          "type": "BLOB",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    {
+      "key": "composerData:de6fa788-510b-43d5-a5ad-31b170388928",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":14,\"composerId\":\"de6fa788-510b-43d5-a5ad-31b170388928\",\"richText\":\"\",\"hasLoaded\":true,\"text\":\"\",\"fullConversationHeadersOnly\":[],\"conversationMap\":{},\"status\":\"none\",\"context\":{\"composers\":[],\"s"
+    },
+    {
+      "key": "composerData:b6491845-c359-486d-b184-a1d99ef819ca",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":14,\"composerId\":\"b6491845-c359-486d-b184-a1d99ef819ca\",\"richText\":\"\",\"hasLoaded\":true,\"text\":\"\",\"fullConversationHeadersOnly\":[],\"conversationMap\":{},\"status\":\"none\",\"context\":{\"composers\":[],\"s"
+    },
+    {
+      "key": "composerData:016c446c-7fa0-4fa4-b1db-036c47f4e284",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":14,\"composerId\":\"016c446c-7fa0-4fa4-b1db-036c47f4e284\",\"richText\":\"\",\"hasLoaded\":true,\"text\":\"\",\"fullConversationHeadersOnly\":[],\"conversationMap\":{},\"status\":\"none\",\"context\":{\"composers\":[],\"s"
+    },
+    {
+      "key": "composerData:fd1f77af-91ad-4058-8b52-59490ecb6624",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":14,\"composerId\":\"fd1f77af-91ad-4058-8b52-59490ecb6624\",\"richText\":\"\",\"hasLoaded\":true,\"text\":\"\",\"fullConversationHeadersOnly\":[],\"conversationMap\":{},\"status\":\"none\",\"context\":{\"composers\":[],\"s"
+    },
+    {
+      "key": "composerData:empty-state-draft",
+      "classification": "CHAT",
+      "value_preview": "None"
+    },
+    {
+      "key": "composerData:74787d0a-1e1c-4242-9b6f-b7dc36cce459",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":14,\"composerId\":\"74787d0a-1e1c-4242-9b6f-b7dc36cce459\",\"richText\":\"{\\\"type\\\":\\\"doc\\\",\\\"content\\\":[{\\\"type\\\":\\\"paragraph\\\"}]}\",\"hasLoaded\":true,\"text\":\"\",\"fullConversationHeadersOnly\":[{\"bubbleId"
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:71678623-b5d1-4584-a52f-5913f1b7766d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:99a96632-bfb0-4890-a2f4-e76c4dd3d76a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:7165e5f3-a6b9-4576-b106-ea655c39dffc",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:73558eef-8f89-461c-897a-45f05908c38f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:1a336103-7ab6-496b-af17-393cf29726de",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:0878274b-f56b-4a3c-9c3e-2d89b88405ed",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:03835fef-7acc-42ab-8a87-e6abd374696b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:09ce75df-8f36-46cd-8172-78ef453abd9b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:7203d7bf-129b-415c-9920-da775737d23a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:19af6635-6f4e-40c7-9cce-026ebbcb5f8b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:7ede338e-f5b6-4356-bfea-6c2233666269",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:6c3f3b17-147a-4873-b9a7-92394d4f45bc",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:404d8a6a-5d9e-47bd-b496-1cf21096dac6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:0c46cb71-b459-483b-b565-13d858e667f1",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:d5423304-490f-42b1-8f1b-16bac4bd9c88",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:e6818103-1bbb-49c9-863d-66224c9dfac6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:ee7d4587-ad04-48ca-b31c-da87c253fb15",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:008018ab-c4ee-4e4d-ba60-fb24af00a16a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:30e77593-bcec-4076-bc2c-07063ad38936",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:9043771f-29c5-496a-a218-ceb9516ed80f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:025bd8e4-a897-4e4e-bfee-802cb6393003",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:5c9aecf9-c197-4528-a6e6-3e836d558803",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:d8df00bc-aa93-424b-a38a-9fd64c8e8f6e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:3e1de412-25a5-4e68-a7e6-6eadb91fbdf6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:b53e5971-b88a-43ef-8721-5f5c51c1abf7",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:ad57c236-841f-4499-be81-ffed5b64fb8e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:114063a5-3373-4e82-a6ca-84da90d412aa",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:60f85704-f9b5-4c48-a2ec-7acc9b88d300",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:659dcc47-4178-4b44-b5d5-c8c33004d11b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:248ef523-8b2e-40ed-b5d8-9d7efdb3f52e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:21a37fda-3cb7-48a8-bfab-fe2640e8224d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:5b9d619b-f3a5-4ea1-95a9-198864f67fb3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:1b9bdbc5-5f11-4b18-8ea8-07eb5d582bd7",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:4cb02ed6-8a1c-4d59-ae31-f95533417de5",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:1cb886c6-b37f-4cd7-b3e8-420ed47015ba",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:17cb5346-575d-4c91-b248-3ce7ce1bbfd6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:9580660d-e07c-40a2-820c-f30c63fd3980",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:757ec28f-9ec4-4755-b0eb-893a968abcfd",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:db5fc85a-63f9-4838-b996-caa5c7a1d704",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:4d73cbdf-4346-405e-9b9e-ee0a3a270151",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:d7214cba-c0f6-4eea-9a42-f04cf51e5df3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:74787d0a-1e1c-4242-9b6f-b7dc36cce459:68ee926b-fe19-4bde-9f6c-4822523b0cfb",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composerData:92829dd1-febb-4d93-8394-18dcbef92004",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":14,\"composerId\":\"92829dd1-febb-4d93-8394-18dcbef92004\",\"richText\":\"{\\\"type\\\":\\\"doc\\\",\\\"content\\\":[{\\\"type\\\":\\\"paragraph\\\"}]}\",\"hasLoaded\":true,\"text\":\"\",\"fullConversationHeadersOnly\":[{\"bubbleId"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7aab404e-e008-4512-ae02-bd289ccdd0d7",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:00c70a1a-341d-486f-b8e0-89684ddf31a9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b98d8b03-49bc-45ec-8354-12cb3dd7c429",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:daf20f86-c36d-4e27-a597-442ce806d82a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:af5c702d-58a9-478c-8ec6-84903d7f74d0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:bdb3e96a-1df8-4695-a598-379054482a47",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:18b9aeaf-5f3d-440a-beca-94fde3a66d98",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0dd02b7e-dce5-4254-8484-7fdc5ecf2ca2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e2b4fa8c-8aa2-4d2f-8442-aaa7844bfcea",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e4c76257-a721-4822-842e-f2ffe6e40865",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:182fee3c-acbf-4b4a-9221-125deb52c7bc",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b4de007e-6795-4d93-b297-544fcd470e45",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:452933ea-d4ca-43f8-9ee4-729923c32baf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:33166c99-bdf5-45df-9925-daa1a25513f6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e1c904ff-639d-46cd-839f-fe7ef77eea42",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:87debd2c-e0de-4957-94f4-5a06f89671d0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ef69abe0-5cef-46e4-aa05-aff5c97c491f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f2059b8c-1e59-4eca-852b-5b9813912f9e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:afeda1ab-0598-4c05-a60b-7923b5426881",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:29b8ed7c-2f50-41ca-8577-21be272c3886",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:72358ee1-83ad-4048-9e33-b730e1e31fc5",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1bcf0797-b5eb-4203-8e81-f2f644ef8530",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:06b42ef1-5b35-4617-961d-0efcfaee80af",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f963a5f7-ff09-4fc3-b7dc-e40f6c52e720",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7ce0859b-329a-43b8-8dba-b8d3937ba339",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:4199e15c-3931-4019-b762-eea49477f64f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8634352a-51c8-4817-b413-f650e9087bb5",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:12870390-7172-47b5-b4ef-44050f92e2dc",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2b3ef735-1527-4a09-803e-fc206aedd5d9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.ba31cd6a3f95f1f00d3f9f33e5e38e4c9e733cba0a7b871379592aa170b2da04",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.theme\n\nimport androidx.compose.material3.lightColorScheme\nimport androidx.compose.ui.graphics.Color\n\n/**\n * Design tokens extracted from:\n * - /ui/*/code.html Tailw"
+    },
+    {
+      "key": "composer.content.028331f6fe73679cc14dfc64d6fa1bcb09c3e52959019e7cf77b21c35173cfee",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.theme\n\nimport androidx.compose.material3.lightColorScheme\nimport androidx.compose.ui.graphics.Color\n\n/**\n * Design tokens extracted from:\n * - Per-screen `code.html"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:39d8567d-f2fe-4539-ae48-6e4988460cf5",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:53195dfe-8af8-4d75-9527-1a7928e1a2fb",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/theme/Color.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.theme\n\nimport androidx.compose.material3.lightColorScheme\nimport androidx.compose.ui.graphics.Color\n\n/**\n * Design tokens extracted from:\n * - /ui/*/code.html Tailw"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1d94c61d-a5dd-449e-9e8f-a001ae8e8656",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:cd79f4f8-7a84-4751-80c2-2a961cbf51d8",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:86ca595e-b4e1-44d0-8a2e-818adec3c63b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:5b1be49f-c137-471d-a68e-eb428d065999",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d388c01c-60bf-4635-a6d1-c850bc1a3a67",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8319e11f-343a-486e-b492-42ee7af633f8",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:657f09e1-aa32-4b0a-88bf-69822fad2f3e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2ab212a8-2211-4ef3-9e1a-a881ca056b91",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f4813e14-32b8-4352-9430-b23fff7ceb69",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:96ddd845-b982-4c65-874e-b219a7ff1e75",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e641137b-350c-4c89-bd0f-b427752cf1cb",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2bd60fd0-7900-4dda-b4cb-1d71e80089d2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e664891b-a11a-4046-b054-3a77d40db81d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:714ae9f0-c09e-497f-9cbb-2f09f2b64fe6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:c0b8d874-af40-4d1c-94be-900e682986ca",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f630b7e7-fe46-413d-9f05-9393ccddc55a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0b896708-d00b-4b38-9961-b1cac563ab16",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:cd663566-7db9-412a-ac83-c080812ef588",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b73cd21f-3983-4e0e-ab02-58ae9712460f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2db70ce4-a086-4083-9754-497cd4c32e59",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:57c5082d-820d-4a3f-806a-2d90bf8dac02",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:91c6dea5-ba63-4719-96ce-63d32bcf783b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:4cc3e624-78f0-43ee-bd3c-eda977d97d09",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e68e3c6b-3585-42c3-b029-b2daf07fc52d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d18152ea-683f-4837-bb51-12e2ada1c743",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:18f754c5-9479-44c2-924c-b62b2f6f7d17",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:dc252f49-210b-43cc-ae93-cfe6618bd066",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8cf454b1-39a1-45ef-a93c-e0a2d67a3124",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:59b40356-b757-4d0d-87e7-cda6bcd0784a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:52507377-1ae1-420e-ba71-46d1bec0da75",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:928c1ba1-8a9e-45e7-9a90-546da3167f41",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:233e7f77-5f24-4cf3-8879-841adad92375",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7ebcf693-e86a-4f3d-a471-0625da6a72b6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:79e9c64b-16b2-4d6f-b0a1-16f55132be96",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:9cab6849-4522-48ef-8f56-1d587b766eed",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f8cc4cab-1f9f-4b7a-8382-45086a81e43b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:311e42cd-ad4a-40f6-b31c-e12ecdfd8aa9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7c7aefa2-5520-4c65-bf3a-f749792e7e41",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:78d4b34c-6dc3-4f89-8bf5-eedc9527789c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f4f99ae5-6e2e-4732-b166-2a73311a56a2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:67e0db3a-2648-4def-abc0-3f59c942df62",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d8d13811-e1a7-43c0-83b1-4a6d74885663",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b1eda359-6d01-4110-9283-45a0700b99c8",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:5cc2c919-ae5b-41cc-9118-16cbcc56884d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b6a242f4-2b0f-4924-969a-d23294e40e58",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0de8795a-844c-435d-bc82-a840ee766b3f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:cb00d82f-eb09-45a9-a608-2b5eced2de7e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6d60cbb1-dfe0-438c-8237-9a9975ba1b54",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.6722717316743925dadbc4abe11c52e0e000e9360ddd9b879573e76491d15b80",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation\n\nimport androidx.lifecycle.ViewModel\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport dagger.hilt.android.lifecycle.HiltViewModel\nimport kotli"
+    },
+    {
+      "key": "composer.content.ba91fe7229358a032db3c38ba73884244955be9772e4c5c3ec81d3b8256da510",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation\n\nimport androidx.lifecycle.ViewModel\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport dagger.hilt.android.lifecycle.HiltViewModel\nimport kotli"
+    },
+    {
+      "key": "composer.content.355636248966e834b2e41dfba2c3e0439d50bc10c7162f2b519bcf4d95163b9a",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.border\nimport androidx.compose.foundation.layout.Arrangement\nimport and"
+    },
+    {
+      "key": "composer.content.ec865bb34580c7d5aa2aaa5b6ae3c06460bf8baf07b2b484b566ba781d2ae815",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.border\nimport androidx.compose.foundation.layout.Arrangement\nimport and"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:988d9f1f-ff29-4478-9070-08c7db22f117",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ad606d16-5f7c-453b-a768-f1f6200fc69a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.1d692452a9f588a920ebb5b7e868abd2ddb2065f5335368203a54a8bb0830413",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "composer.content.a14b773cca922400f0010ada02ee72633f727de52b7ceee78728396ec09876fb",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "composer.content.a1945d530084cd47d52c3d1e827d4122a28f19905c4fcfcb1dccfd9d477cd602",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androidx.compose.foundation.layout.Arrangement\nimpor"
+    },
+    {
+      "key": "composer.content.66e9267de94ee1cbe7620d2132ddd655a1b5210e42f70c83d3e0eb904f5b2446",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androidx.compose.foundation.layout.Arrangement\nimpor"
+    },
+    {
+      "key": "composer.content.c060e52dd82ed49195893cc6865bbb93005b5407cb19bb5e2fde9d71099c7457",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport co"
+    },
+    {
+      "key": "composer.content.73ba7eb2c0581d93e717024b6f5583c8349b84c17fb196c358c769516e170624",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport co"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1449c6ac-a3cd-4084-8f4c-131426e93696",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/AppRootViewModel.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation\n\nimport androidx.lifecycle.ViewModel\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport dagger.hilt.android.lifecycle.HiltViewModel\nimport kotli"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/onboarding/OnboardingLanguageScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/screens/home/HomeScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androidx.compose.foundation.layout.Arrangement\nimpor"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/screens/home/HomeViewModel.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport co"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/components/EmptyState.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.border\nimport androidx.compose.foundation.layout.Arrangement\nimport and"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:82f7871d-b25f-422e-a5c7-d5e399f708bd",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8e0c89ad-2551-48c1-8382-cf7e5017f3a1",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e7e22d5e-b485-47fa-a693-46683b4380ca",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:321a2967-f504-46e3-8ef2-8c481fb6796e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:572f299e-18bf-4768-be4d-141d0390ad7b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.0bee3c0cff09cbeb64afe5c5b09f987a5954e26c92622d4cb00eaab70148de62",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport co"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7215ab50-a44a-4900-b9b7-450fe7989d65",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2da2a764-65ff-47b3-a9a3-8cade99d8d37",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.69a92d932f9d46ac1841ef6f94562ae49a842a31d92013b59e16a0768902b6cd",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.home\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.data.preferences.UserPreferencesDataStore\nimport co"
+    },
+    {
+      "key": "composer.content.b18926feeceb5d957ef6adfe1a0cf71196560331786e26113f26e19d02f26fa6",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport android.content.Context\nimport android.os.Build\nimport androidx.activity.compose.reme"
+    },
+    {
+      "key": "composer.content.8cf61dc560d12c9e5a9a1198d2807f1c8a8e6fd7f2489027f890dde70cdd48a5",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:484a234d-65c6-4400-aa6b-0658fed0ddf7",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.77f890bef61e0e96df95f51bbbfd20750e7e3b77cbaf17553d22c11a9fb41bd9",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1c7fd388-ccfd-4818-a4cd-9ea25b0fa917",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.fe9a7df68229c0d1cb1a0f609c4272ced62bd1f92d5b966d58aa6ede1c7dd275",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:cec15812-7296-44b5-b6d7-569bb90b79de",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.6cda9fc42c3e34856fc463abbad7977b8dc8848c461143e9bf75df2fa0074fae",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:571101c9-c163-44fe-84d5-585a3a106d43",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.22f4f1bcf561e6fab204895bfdeb12475bb0462f436a670f0cef4d8857848bd4",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:c54015de-931b-4b67-bfd5-2239c3c094ba",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e60cd1c8-bdd8-4f57-bf09-c6747ced0a11",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:18d082ea-a93b-4fe5-b058-58b5510411c0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:96df2347-7380-49a8-a98a-b02ea946710b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.70bc15f0041fe4664e20445821c0c9c4b6faf14b1583b29da17dc2fea77dbc04",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:95ca3f74-4849-4996-8863-81613efba9cf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1ba1c06a-ada8-4f9f-afb7-7e59962c8bc9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:418c5f9b-5ca4-43fe-b393-dece9e77e91c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e721125b-c399-4feb-a822-1885710bfbdf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:57cf2177-00fe-4273-aaa9-4b17af6a177e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.e1f07a2fb15d955197373f970530bcfc963d0ca4c55d06e4fba472ab9a6b6f78",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.history\n\nimport androidx.compose.foundation.layout.Box\nimport androidx.compose.foundation.layout.fillMaxSize\nimport androidx.compose.material3.MaterialTheme"
+    },
+    {
+      "key": "composer.content.46895fe0aa1c70d156486a04f132803436f1062cf3aa17941aa42a166e7dc6eb",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.filter\n\nimport androidx.compose.foundation.layout.Box\nimport androidx.compose.foundation.layout.fillMaxSize\nimport androidx.compose.material3.MaterialTheme\n"
+    },
+    {
+      "key": "composer.content.59f9578f646657f11d38ae17fa7fd2219ce277c8e9951491e32aaba73beefe6d",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.settings\n\nimport androidx.compose.foundation.layout.Box\nimport androidx.compose.foundation.layout.fillMaxSize\nimport androidx.compose.material3.MaterialThem"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a17097b8-e536-4c4f-a5bb-fc955f8d522f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:495a8f33-857a-4476-a9a7-43e90c96eb0d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:01673ceb-404f-4df2-a2a3-0252c0c01063",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/onboarding/OnboardingPermissionsScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport android.content.Context\nimport android.os.Build\nimport androidx.activity.compose.reme"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/screens/history/CallHistoryScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": ""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/screens/filter/FilterScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": ""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/screens/settings/SettingsScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": ""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:9d0edeb3-e27a-4735-92be-aee28d09f981",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7c59f437-893b-45d6-a9ec-ff8001109cf4",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0876478b-9d81-47d5-ba59-6052cf9c984c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8f95def4-de9d-4a18-8d28-b512a75f3ceb",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:40742b87-8b7e-4f40-854d-3673ad01a741",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:68a16c4a-016a-4e10-a463-d8832f745d10",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:cba344d0-031a-44b1-9239-9a1ea2ae1919",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:4b6536a2-486c-4476-ad43-88ed08c06164",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6fdcda6b-9654-4912-95dd-4278213182a4",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8d0593bb-abad-4ba1-b6f2-c752d73d8206",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:dfa4c7e2-b63e-4c56-819b-e89e8ddf2ad6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:3296b5f8-e8d6-4326-b7da-b21a3730e0a7",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:209d2b19-b4e5-4d04-bba4-daea09f5219e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a71f9e6a-4871-4d4c-92af-9bd19d5cd136",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6cf2c0ab-605c-4c8e-9152-8dcc95a3f070",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:3ce9c23f-1eef-473b-8544-1aff5f3d39cd",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e4241677-596b-4a0d-873c-6338ed256172",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.41dfead6ad038383b856761b403bcbf46758cd53cac13385a9ef5e3b28c8e5de",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.screens.statusconfig\n\nimport androidx.compose.foundation.layout.Arrangement\nimport androidx.compose.foundation.layout.Column\nimport androidx.compose.foundation.layo"
+    },
+    {
+      "key": "composer.content.3411f4df0ab3f6e42597864a70945e6554230952b9d3af7b62da2ac066cfee9f",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.navigation\n\nimport androidx.compose.runtime.Composable\nimport androidx.compose.ui.Modifier\nimport androidx.navigation.NavHostController\nimport androidx.navigation.c"
+    },
+    {
+      "key": "composer.content.05d450ee95f185bd413305cf56a5484ef771c405747c2dd96d4f38bbe98c56a3",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.navigation\n\nimport androidx.compose.runtime.Composable\nimport androidx.compose.ui.Modifier\nimport androidx.navigation.NavHostController\nimport androidx.navigation.N"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:15eb736e-94e0-4319-9433-48c5937e82f0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.1aea71eef67ae671216d4da587e14cfd37dc3c46c811e51ab1e9fc1532b55238",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.navigation\n\nimport androidx.compose.runtime.Composable\nimport androidx.compose.ui.Modifier\nimport androidx.navigation.NavHostController\nimport androidx.navigation.N"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:82f68b6e-1eae-4bea-ad7d-215d0bd813f1",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.c364e346f9513b09d8c691418d090951c86dbb809862739377ed1e13503b002a",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.navigation\n\nimport androidx.compose.runtime.Composable\nimport androidx.compose.ui.Modifier\nimport androidx.navigation.NavHostController\nimport androidx.navigation.N"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:76dbf076-b338-43b6-98be-08c63694b209",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:94ea340c-9ae3-4408-8d52-ac6302702f81",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:eec4fad5-472c-4930-9649-a5df9de07615",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b37c0342-7f34-4ef7-b395-08caf1183f1e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/screens/statusconfig/StatusConfigScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": ""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/navigation/NavGraph.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.navigation\n\nimport androidx.compose.runtime.Composable\nimport androidx.compose.ui.Modifier\nimport androidx.navigation.NavHostController\nimport androidx.navigation.c"
+    },
+    {
+      "key": "composer.content.2211ca70419fb2098343d2faafa54d6dd4abee1ab2fb741ee7e8493876e788b2",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.navigation\n\nimport androidx.compose.runtime.Composable\nimport androidx.compose.ui.Modifier\nimport androidx.navigation.NavHostController\nimport androidx.navigation.N"
+    },
+    {
+      "key": "composer.content.8cf5f67051a7049b875a3438761eaf7732c1463f635adcdadf0f35a6b7a51cfd",
+      "classification": "CHAT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\">\n\n    <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\" />\n    <uses-per"
+    },
+    {
+      "key": "composer.content.e8e202e7d1e367802936c2cc1bd098ae8352afcb945b1cb8dec91446d65b2d78",
+      "classification": "CHAT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\">\n\n    <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\" />\n    <uses-per"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:45afbd3b-7dd7-4df7-b50a-83fc8ad69997",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:532a4081-f712-436d-989d-aa794c23ed3d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/AndroidManifest.xml",
+      "classification": "CONTEXT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\">\n\n    <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\" />\n    <uses-per"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6461ac15-efdf-4e6e-95f9-42ec22bb9b5b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6cdcec1b-dd95-4340-9755-549847783766",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a27a0fb0-ded6-4278-b0ea-8f34b145380d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b4104e57-9897-4a8e-92fe-f10311a6cb00",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f286bb6a-b58d-4a76-9e6f-07f90ad7be8b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f8950d72-878b-48c1-87d0-e98bc3c9e1e5",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0e7e683d-d7c0-480b-bfce-82f1490f03e4",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:773add16-6cdd-4e02-8df9-62af521ad440",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:eed4a7f3-5b41-44b2-a6d4-f20c2de54c4f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f6edafa3-0581-40f4-9e75-9cac9aab97ed",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:af6fb29d-87a9-44cf-a4b9-03e5656daf1e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2e825f9b-96f5-4569-87a0-65f50a98581b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a1e550cb-4e1b-4b4c-8a60-33e8045b5493",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:151e36bf-0846-453e-b201-b8d34d79be19",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:494760a7-7f99-4a08-8490-4fb578aa6edf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:56291ea8-b1c7-46a0-9bbc-d69022737144",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:c942c8e7-1ba4-4a62-b858-4c00a5cd8c1c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.14641b3ba7f06e460ae52cbe8fd9147d46eac300fdbc176386bbf3513aeebeb3",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "composer.content.c2edb4a1aa7284bd2bfa0884fbffde7be43f84796a811ef010f5cb632df5b066",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:12b21d7a-e27e-4ed5-9b7d-f40be0b48fa5",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.e1369724131320dd9637f4f0abdbbad08bd5f0a871405d19b071a13c3810a53e",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:39e0a7c3-9b65-4a69-bd4d-bb5c2ea2a66f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.78802addcffff18624de6783f17abf87510a47ffbe5b2ddf06dc8e2530951159",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:83f77416-5920-4f19-8f61-c81caf1b3751",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.85f2f856d6bb1d279f0365275b1285f91eadb53e15758391d4ff6c09e7e58c1e",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a4cb9daa-6462-4cd4-b5c3-2be78cddcdc7",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:aa50468d-37d9-4eb2-a751-8a0224478f12",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.6c1c6df3b6bc758b0169756ba346a011ccea98443b83c1d9132542bcacbbf392",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:68e57c40-88f4-419a-8522-6898f0a1f24e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.99d6df12c20f1c9640e89e9b6f78cd89694c37b4c8a813e108b12ef6fa92e88c",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a344e398-4cb7-4263-b88f-66088c5e6066",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1354ed97-48f3-49e4-94c4-5fc8e9836bce",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:3fcf7f27-c4b9-46f6-8ab8-abf3a69dd511",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f982cd11-5ab6-4f4d-9726-76ebf2178c1b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.0d266d896116c07b28606b0844b6934836fd7f732fe087be8758cddf03c0f0f0",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.presentation.components.PermissionChipState\nimport da"
+    },
+    {
+      "key": "composer.content.50ca12c4a07fe6bdea9f5f3ab1f3afc6160834cc45e89c7c71ac77cedf3db6af",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.presentation.components.PermissionChipState\nimport da"
+    },
+    {
+      "key": "composer.content.67f1a1c122801e77b7e974353926dfb1d641585714289a24b8ac10d19bd7e420",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6409e719-e806-42e7-906c-acff79e19be0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:77694b4b-4650-40c2-82b5-dfe68bcd3951",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:c28b3f11-dccd-4e06-9d84-5a812446d2d2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.7f6c7eb1c89d5bd2617f8b419546c7f0b751302b9cd76a5003dd628ebb55c5ed",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.layout.Arrangement\nimport androidx.compose.foundation.layout.Row\nimport"
+    },
+    {
+      "key": "composer.content.77b9c7fffb823c9893f442ae4d396dbccd9329ffa3ef25c88aaa71848b4dee22",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.layout.Arrangement\nimport androidx.compose.foundation.layout.Row\nimport"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ba5ae59e-9432-42f9-ad59-ffc328c2942f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.a67de1af9a60939f6061934d23dd7d9043c6d01a28bfd02c667e4b9ac31f2223",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.layout.Arrangement\nimport androidx.compose.foundation.layout.Row\nimport"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:da42c894-50bb-4be5-9183-b9e2a6c889bc",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.7b47a1829ac1df4d2de01a2465b88c8647127ab0ca05d87e0dcbfa1e4dff7090",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.layout.Arrangement\nimport androidx.compose.foundation.layout.Row\nimport"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/onboarding/OnboardingWelcomeScreen.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/onboarding/OnboardingPermissionsViewModel.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.presentation.components.PermissionChipState\nimport da"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/presentation/components/AutoCallAIPrimaryButton.kt",
+      "classification": "CONTEXT",
+      "value_preview": "package com.autocallai.presentation.components\n\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.layout.Arrangement\nimport androidx.compose.foundation.layout.Row\nimport"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b65f56c6-a646-4acd-98e7-1cbcc9ad41fd",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d4861122-af49-44d2-a917-4dbebf059dad",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:5417fb17-ef3e-47c9-a1fa-5147927102b8",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:23eb3f77-3c17-48fb-9a18-fa4c95f1a8de",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7d89b3d5-e762-43e9-a3a9-c892c8231af9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d3c73a07-f061-4631-9868-9ebe4d347b92",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:68875668-5ec1-4128-8908-881e2783dc4b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:01cb8c66-62a1-4be3-bd20-d34ca2bdec9c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.44e43ccea0464b7ce0d4cd4e4241b8906464358947dcddff5cca039e8f521718",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.animation.core.RepeatMode\nimport androidx.compose.animation.core.animateFloat\nimport androidx.compose.animation.core.infiniteRep"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:169fea67-563f-414d-a89e-656187272eaf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:bee3e81e-027e-41b5-989e-d6b24feb2c12",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d924419f-2b3f-424f-8f65-f3576280ba1d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7799047a-cb85-46cb-9fd4-8185eac142e4",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b0540209-d190-4dd2-a639-9fc28a2973e3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:2a88fb17-5afd-4709-97d6-480970300f41",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:862fc573-4aa3-4eb9-b9e5-d8453d7ffbc1",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:372da2cf-603f-4192-982c-604325d9d7ab",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:73c88498-9cb0-4ec8-958c-0ce8ce43ce04",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a3816a06-988a-46c2-a43e-8c0e4933415f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.7c6e050f5788b47ca1f48f68055040ba67bcd3430cebcfe32307d996be6a5750",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.lifecycle.ViewModel\nimport androidx.lifecycle.viewModelScope\nimport com.autocallai.presentation.components.PermissionChipState\nimport da"
+    },
+    {
+      "key": "composer.content.1da42556b8d5012be7a13e3e4654ba06754973902802af2fc468f6b7298ec657",
+      "classification": "CHAT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n    <string name=\"app_name\">AutoCallAI</string>\n\n    <!-- Common bilingual strings (Hindi / English) -->\n    <string name=\"btn_get_started\">शुरू करें"
+    },
+    {
+      "key": "composer.content.975f5b3416bdc90fd748d6e3eb9e0bddf7612d475a016d969990499280657b99",
+      "classification": "CHAT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n    <string name=\"app_name\">AutoCallAI</string>\n\n    <!-- Common bilingual strings (Hindi / English) -->\n    <string name=\"btn_get_started\">शुरू करें"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:53d15b7d-ea87-4b14-8098-07ed236d782f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:08663898-34de-418e-8898-a412d7bad95f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:430f74ac-b4ac-45cb-bc84-aed1dcf1cbe8",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.011a0d32b142f15db47d8cef4ed3f0f79f94e45fec73309d9a084aec81c4758a",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:6dc5e9d7-da85-4c02-b800-89e7aa1a2a2c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.cd56dca52d529f6c57fd63bd8537665fb9b83605d8f93d18a4f31ba749046272",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:4ea2492a-98d6-4081-81f3-0f6fb6956944",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.ea7c766caa8116295df3148f817173adbe60d0e40a1f164d3cca43f803a109a5",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e82d131f-a014-47c0-be9a-06ec2b464df4",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/res/values/strings.xml",
+      "classification": "CONTEXT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n    <string name=\"app_name\">AutoCallAI</string>\n\n    <!-- Common bilingual strings (Hindi / English) -->\n    <string name=\"btn_get_started\">शुरू करें"
+    },
+    {
+      "key": "composer.content.cce6eb7a4285df22ea2505f019a4a85813fc289436539519ab3ac81522a2071c",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f5c73c2a-0d7e-447b-b927-0e21f9737412",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.a5678d6c3fb6881e3ac6282eebaa2214a6cef8a6466cd4060523434a485da7a5",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:c9eb5216-d392-4418-afd2-45beb8a43e68",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1ab29d79-ab2d-4add-930d-764d7a6e9cdf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0f9eaa34-4694-49b2-8d43-24702cc78765",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.4a2d4fabcfcb80462f15bd6287f8d3731240b690a2ae9522e4fb6b670a82b5a9",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:5db6d18d-4d72-493b-8df7-fe56b6f1a5aa",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a8b60cd2-e943-4cad-aea2-fa00b169ce42",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:85d780a8-1d12-42ef-8cc4-ecfa3b19ae5d",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1e1818ff-f387-4559-b287-9547ee7c7fe6",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.279e96129099d76d440da5a5c0150f60644dc11780f726666af98cfd01fd778b",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1044dc64-c993-4d4d-8680-60b543c3f3f2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1f22377d-e219-468c-9c06-8efce169f8ca",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:abccb236-c5a5-4976-bb28-d01ec4342afa",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8b66d3bb-ecfe-4897-8ebb-97df231923d2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:8dc4e43c-3097-4e65-90da-40f039ff6a12",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:c4880df0-d6ef-4652-8d73-81b4bb6658c0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:76cb2884-5775-43fe-bb69-1585fa0e57d3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b2d9a731-a60d-41ed-a8be-8a95c794db99",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ca1d35ac-5dc2-428b-babc-46dac5046672",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:9c7214b1-246d-41bb-a984-258eaaf3a3a2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.1b5beb9288b2204a7995e450fb1d6451b80cba0030c5b7690aa50e3b6dbb67df",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.telecom\n\nimport android.telecom.Call\nimport android.telecom.CallScreeningService\nimport android.telecom.CallResponse\n\n/**\n * Required for the system to offer AutoCallAI as a cal"
+    },
+    {
+      "key": "composer.content.4617b4a5881516f896713adf492da5c00b6560c977eca8e8a3226b87febcd02f",
+      "classification": "CHAT",
+      "value_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\">\n\n    <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\" />\n    <uses-per"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1ac58bc1-c10e-4aad-b010-ee71bf98cab1",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:48339156-6773-4794-a2f9-896d4680a00f",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:adcf73f0-e40e-4173-8a89-934768185664",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:42407dff-ff06-41a2-8ad0-2262afe28ce9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ca0e6fcd-d242-405c-be53-2ccbf55c4151",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.32f80a9603e20c24ddfc237adea768764fda3b285b76acb6135b7eeb9f13c195",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a1007b4d-9f6d-463e-a245-04346a4634bb",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:45c7abd6-c4ca-4417-a273-f2005954ae66",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:768f13bc-29b6-49b5-b73a-bb3ae24bbe94",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:335d0223-c8c3-45b0-a2c8-a8d4c83a7f8a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:458e705f-4f66-433f-b8da-4ca32be6461c",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.d61e7edb79803bab3d2d64769cc0dc2c1c771fad3fd89517797b8e26ac2c208d",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:fe7e55dc-9419-43b9-befe-e22ec46b1f27",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.541ad546c672447749902dc76f82fd7ffbbf07e80377da8f8ed692c99b6557c0",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:bbc8cafe-019c-4ac5-87f6-62b0c4ea4c83",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.d15900a363fc582e46c99b9ad495d2817dee34000b144d56392bfddf1ea6f247",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "ofsContent:92829dd1-febb-4d93-8394-18dcbef92004:file:///d%3A/AMIT/PROJECTS/2026/AutoCallAI/app/src/main/java/com/autocallai/telecom/AutoCallAICallScreeningService.kt",
+      "classification": "CONTEXT",
+      "value_preview": ""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7745e447-63e1-44db-9573-3ba6b0d0e743",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:0d6a08a1-05dd-4fb9-a43c-bf78a6b780ed",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:89f22c62-a838-4962-87fc-8c9dad3053b3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:20a4fb02-2ce6-4ae2-a2dd-1f2f7644b711",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:779cfa13-6ed2-44ae-9ac9-182f6e413d7e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:636fcc8a-cf96-4298-b47d-5d2db3b0843b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:e3859c93-e469-49f1-b048-0cb762d51ec9",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.ef8f54baa26e7833a8c0dff2aee0c094f4ed39e25bea4257b61a1a747e054360",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.telecom\n\nimport android.telecom.Call\nimport android.telecom.CallScreeningService\n\n/**\n * Required for the system to offer AutoCallAI as a call screening / caller-ID candidate.\n "
+    },
+    {
+      "key": "composer.content.df24bcb76381b3c16f8288094086cb650b1007d738b542b7c7a72c9ba5f487c7",
+      "classification": "CHAT",
+      "value_preview": "@file:OptIn(com.google.accompanist.permissions.ExperimentalPermissionsApi::class)\n\npackage com.autocallai.presentation.onboarding\n\nimport android.Manifest\nimport android.app.role.RoleManager\nimport an"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:205557cd-2395-479c-b173-aa2b9dd368f0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f2cd3923-e769-41fc-bba3-991426f59da3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:4f152283-1f3e-40d0-a4fc-1da48d282567",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:7c4f734d-b242-4626-9767-a774aafddab3",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b3888bd6-8b36-4eda-9305-b03ac51ff2e2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:530e0df7-6b31-47bf-9dda-dc8ce5839662",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:26877528-30b7-44cf-9a74-99cd3e29ed25",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:4ef5f69a-168d-474e-97de-985defe34d5a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d2af49cc-9612-4745-84a4-c62952ab8823",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:b05f1cd5-b7e8-4759-9a01-a90ea1a0f8fc",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.2d242454e2e1b13b14bdd67cf899277bae5b980a5dabd37a7c1454924cc93974",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ac711623-1ac0-4bf1-ba1b-1dd0f69069a0",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.d6a95a4074127b7f87b4e32147a60653aa2839bf30b03d7ca51e19bbb5c1df01",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:1754c378-878a-475a-893a-e380c756f292",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.4c15df67e391daa727e51753edb10541ab0ee59e448a6b944cb0558ab935e0f7",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:704e010a-324a-41d2-bbcc-a618dcf64da4",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.6193d64351b0cde0d49d324ce20627e27b11ca586dcd3583e47909651edde58c",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:5629afef-8d2a-4512-8239-57d35f35d063",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.3dc3817b958dc26afe68f7d95ead37af17296258097efd2068ddc3895a732d3b",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:bf6170e5-573b-40ae-a41d-95dac17733f2",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:533343d3-9abd-4c8f-8e9d-f48c6468dbaf",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:fba2f30e-5720-4d21-b59a-6fdf2dbe7dfb",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:f5cfcad6-b085-4bb6-8b34-5d1b48b7f5dd",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:3dbabc03-07ea-4374-829f-90e6e84da76e",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:95cce50a-b82c-49ed-b108-ecf2a17df1ea",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.9addae538016b84fbe858448f2a6a6b2e08aefad14838706f756f22a4c35cf03",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:96d6b9c7-7f92-4ef3-9be2-946ebf1d2c3a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:ae1eb518-2a91-4fa6-9776-c2235cb10e0b",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:d368e287-94fc-4f49-834a-e9b3d8ef3138",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "composer.content.2540f333edc66bdbb480a4826f0f8e7433bdd1e97547ba8bf0f1808d4661f06e",
+      "classification": "CHAT",
+      "value_preview": "package com.autocallai.presentation.onboarding\n\nimport androidx.compose.foundation.BorderStroke\nimport androidx.compose.foundation.background\nimport androidx.compose.foundation.clickable\nimport androi"
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:a615903e-269f-4918-8cb9-d63427f2379a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":2,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "bubbleId:92829dd1-febb-4d93-8394-18dcbef92004:eec545db-4b2d-434c-878f-b129a36b377a",
+      "classification": "CHAT",
+      "value_preview": "{\"_v\":3,\"type\":1,\"approximateLintErrors\":[],\"lints\":[],\"codebaseContextChunks\":[],\"commits\":[],\"pullRequests\":[],\"attachedCodeChunks\":[],\"assistantSuggestedDiffs\":[],\"gitDiffs\":[],\"interpreterResults\""
+    },
+    {
+      "key": "[TRACKING] ai_code_hashes",
+      "classification": "CONTEXT",
+      "value_preview": "4094 rows, 9 columns",
+      "table": "ai_code_hashes",
+      "schema": [
+        {
+          "name": "hash",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "source",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "fileExtension",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "fileName",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "requestId",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "conversationId",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "timestamp",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "createdAt",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    {
+      "key": "[TRACKING] ai_deleted_files",
+      "classification": "CONTEXT",
+      "value_preview": "1 rows, 5 columns",
+      "table": "ai_deleted_files",
+      "schema": [
+        {
+          "name": "gitPath",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "composerId",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "conversationId",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "deletedAt",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": true
+        }
+      ]
+    },
+    {
+      "key": "[TRACKING] conversation_summaries",
+      "classification": "CHAT",
+      "value_preview": "0 rows, 8 columns",
+      "table": "conversation_summaries",
+      "schema": [
+        {
+          "name": "conversationId",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tldr",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "overview",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "summaryBullets",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "mode",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    {
+      "key": "[TRACKING] scored_commits",
+      "classification": "UNKNOWN",
+      "value_preview": "0 rows, 17 columns",
+      "table": "scored_commits",
+      "schema": [
+        {
+          "name": "commitHash",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "branchName",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "scoredAt",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "linesAdded",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "linesDeleted",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tabLinesAdded",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tabLinesDeleted",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "composerLinesAdded",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "composerLinesDeleted",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "humanLinesAdded",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "humanLinesDeleted",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "blankLinesAdded",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "blankLinesDeleted",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "commitMessage",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "commitDate",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "v1AiPercentage",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "v2AiPercentage",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    {
+      "key": "[TRACKING] tracked_file_content",
+      "classification": "CONTEXT",
+      "value_preview": "0 rows, 6 columns",
+      "table": "tracked_file_content",
+      "schema": [
+        {
+          "name": "gitPath",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "content",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "conversationId",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "fileExtension",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "createdAt",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    {
+      "key": "[TRACKING] tracking_state",
+      "classification": "CONTEXT",
+      "value_preview": "1 rows, 2 columns",
+      "table": "tracking_state",
+      "schema": [
+        {
+          "name": "key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "value",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    }
+  ]
+}
