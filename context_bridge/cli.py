@@ -36,6 +36,7 @@ from context_bridge.normalizer import (
     list_sessions,
     normalize_session,
 )
+from context_bridge.extractors.cdp_extractor import extract_live_session
 
 app = typer.Typer(
     name="cb",
@@ -44,6 +45,45 @@ app = typer.Typer(
     no_args_is_help=True,
     rich_markup_mode="rich",
 )
+
+# ── 0. live-extract ──────────────────────────────────────────────────────────
+
+@app.command("live-extract")
+def live_extract(port: int = typer.Option(9222, help="Chromium DevTools remote debugging port")):
+    """Force extract a loaded session out of an IDE's active memory via CDP WebSockets.
+    
+    This bypasses local SQLite/Protobuf encryptions entirely by hijacking the Chrome Engine
+    inspector. Before running, ensure you close your IDE completely and run it via the
+    command line with `--remote-debugging-port=9222`.
+    """
+    ui.print_header("live-extract")
+    
+    ui.console.print("\n[cb.warning]⚠️ EXPERIMENTAL CDP MEMORY HOOK ⚠️[/]")
+    ui.console.print("This command taps directly into the active Chromium RAM of the IDE.")
+    ui.console.print(f"You MUST have launched the IDE with `--remote-debugging-port={port}`.")
+    
+    confirm = Prompt.ask("\nHave you properly launched the IDE with this flag?", choices=["y", "n"], default="n")
+    if confirm.lower() != "y":
+        ui.console.print("\n[cb.info]Aborting. Please restart the IDE with the port flag and try again.[/]")
+        raise typer.Exit()
+        
+    with ui.spinner("Searching for local Chromium DevTools targets..."):
+        session = extract_live_session()
+        
+    if not session:
+        ui.console.print("\n[cb.error]Extraction Failed![/]")
+        ui.console.print(f"Could not connect to localhost:{port}. Is the IDE running locally?")
+        raise typer.Exit(1)
+        
+    ui.console.print("\n[cb.success]DOM Successfully Extracted and Parsed![/]")
+    
+    with ui.spinner("Formatting and saving universal session marker..."):
+        out_dir = export_session(session)
+        
+    ui.console.print(f"\n[cb.accent]  [+] Exported bridge-session.json[/]")
+    ui.console.print(f"[cb.key]  Path:[/] {out_dir}\n")
+    ui.console.print("[cb.success]Mission Accomplished! You can now run `cb import` on that folder.[/]")
+
 
 
 # ── 1. detect ────────────────────────────────────────────────────────────────
