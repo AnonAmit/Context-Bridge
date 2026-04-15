@@ -76,6 +76,4 @@ cb bridge --from codex --to cursor --session <SESSION_ID>
 - Python 3.11+
 - Windows (primary), macOS/Linux (secondary)
 
-## License
 
-MIT
