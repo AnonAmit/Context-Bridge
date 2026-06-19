@@ -19,11 +19,11 @@ except ImportError:
     websockets = None
     BeautifulSoup = None
 
-from context_bridge.models import BridgeSession
+from context_bridge.models import BridgeSession, Message
 
-def _get_target_ws() -> str | None:
+def _get_target_ws(port: int = 9222) -> str | None:
     try:
-        req = urllib.request.Request("http://localhost:9222/json")
+        req = urllib.request.Request(f"http://localhost:{port}/json")
         with urllib.request.urlopen(req, timeout=2) as response:
             data = json.loads(response.read().decode("utf-8"))
     except Exception:
@@ -56,12 +56,12 @@ async def _extract_dom_via_ws(ws_url: str) -> str | None:
         return None
 
 
-def extract_live_session() -> BridgeSession | None:
+def extract_live_session(port: int = 9222) -> BridgeSession | None:
     """Executes the CDP websocket hook and maps the raw DOM into a BridgeSession."""
     if not websockets or not BeautifulSoup:
         raise RuntimeError("Missing 'websockets' or 'beautifulsoup4' dependencies for CDP.")
 
-    ws_url = _get_target_ws()
+    ws_url = _get_target_ws(port=port)
     if not ws_url:
         return None
 
@@ -96,11 +96,11 @@ def extract_live_session() -> BridgeSession | None:
         markdown_messages = "<No valid chat structures identified in the IDE DOM>"
 
     return BridgeSession(
-        id=f"cdp-{datetime.now().strftime('%Y%m%d%H%M%S')}",
+        session_id=f"cdp-{datetime.now().strftime('%Y%m%d%H%M%S')}",
         title="Live CDP Assumed Context",
-        date=datetime.now().isoformat(),
+        created_at=datetime.now(),
         source_ide="antigravity-cdp",
         project_root="Unknown (Live Heap)",
-        messages=markdown_messages,
+        messages=[Message(id="cdp-0", role="assistant", content=markdown_messages)],
         model="CDP Memory Extraction",
     )

@@ -68,7 +68,7 @@ def live_extract(port: int = typer.Option(9222, help="Chromium DevTools remote d
         raise typer.Exit()
         
     with ui.spinner("Searching for local Chromium DevTools targets..."):
-        session = extract_live_session()
+        session = extract_live_session(port=port)
         
     if not session:
         ui.console.print("\n[cb.error]Extraction Failed![/]")

@@ -81,8 +81,8 @@ CB_THEME = Theme(
 
 # force_terminal=True tells Rich this is a real terminal (not piped).
 # force_jupyter=False prevents Rich from trying Jupyter HTML output.
-console = Console(theme=CB_THEME, force_terminal=True, force_jupyter=False)
-err_console = Console(theme=CB_THEME, stderr=True, force_terminal=True, force_jupyter=False)
+console = Console(theme=CB_THEME, force_terminal=sys.stdout.isatty(), force_jupyter=False)
+err_console = Console(theme=CB_THEME, stderr=True, force_terminal=sys.stderr.isatty(), force_jupyter=False)
 
 # ASCII-safe spinner name (avoids braille characters that crash cp1252)
 _SPINNER = "line"

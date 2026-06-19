@@ -19,7 +19,7 @@ class SQLiteReadError(Exception):
     """Raised when a SQLite database cannot be read."""
 
 
-def _safe_connect(db_path: Path) -> sqlite3.Connection:
+def _safe_connect(db_path: Path) -> tuple[sqlite3.Connection, Path | None]:
     """Open a SQLite database in read-only, immutable mode.
 
     If the file is locked (PermissionError), copies to a temp file first.
@@ -34,13 +34,13 @@ def _safe_connect(db_path: Path) -> sqlite3.Connection:
         conn.row_factory = sqlite3.Row
         # Test that the connection actually works
         conn.execute("SELECT 1")
-        return conn
+        return conn, None
     except (sqlite3.OperationalError, PermissionError):
         # File may be locked by the IDE — copy to temp and retry
         return _copy_and_connect(db_path)
 
 
-def _copy_and_connect(db_path: Path) -> sqlite3.Connection:
+def _copy_and_connect(db_path: Path) -> tuple[sqlite3.Connection, Path]:
     """Copy a locked database to a temp file and open it read-only."""
     try:
         tmp_dir = Path(tempfile.mkdtemp(prefix="cb_sqlite_"))
@@ -51,7 +51,7 @@ def _copy_and_connect(db_path: Path) -> sqlite3.Connection:
         conn = sqlite3.connect(uri, uri=True)
         conn.row_factory = sqlite3.Row
         conn.execute("SELECT 1")
-        return conn
+        return conn, tmp_dir
     except Exception as exc:
         raise SQLiteReadError(
             f"Cannot open database even after copy: {db_path} — {exc}"
@@ -84,7 +84,7 @@ class SafeSQLiteReader:
     def __init__(self, db_path: Path) -> None:
         self.db_path = db_path
         self.file_hash = compute_file_hash(db_path)
-        self._conn = _safe_connect(db_path)
+        self._conn, self._tmp_dir = _safe_connect(db_path)
 
     def __enter__(self) -> SafeSQLiteReader:
         return self
@@ -93,10 +93,13 @@ class SafeSQLiteReader:
         self.close()
 
     def close(self) -> None:
-        """Close the database connection."""
+        """Close the database connection and clean up temp files."""
         if self._conn:
             self._conn.close()
             self._conn = None  # type: ignore[assignment]
+        if self._tmp_dir and self._tmp_dir.exists():
+            shutil.rmtree(self._tmp_dir, ignore_errors=True)
+            self._tmp_dir = None  # type: ignore[assignment]
 
     def list_tables(self) -> list[str]:
         """List all table names in the database."""
