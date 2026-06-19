@@ -265,7 +265,7 @@ class AntigravityConnector(IDEConnector):
                 # Look for any conversation-related keys
                 for keyword in _DISCOVERY_KEYWORDS:
                     rows = reader.query(
-                        f"SELECT key FROM ItemTable WHERE key LIKE '%{keyword}%'"
+                        "SELECT key FROM ItemTable WHERE key LIKE ?", (f"%{keyword}%",)
                     )
                     count += len(rows)
 
